@@ -1,4 +1,3 @@
-//Posts dos usuários
 const posts = [
   {
     id_post: 1, //id único de cada post

@@ -1,0 +1,75 @@
+.form__btnDeactivated {
+    color: var(--grey-2);
+    border: 1.5px solid var(--grey-4);
+    background-color: var(--grey-4);
+    width: 55px;
+    height: 35px;
+    font-weight: 600;
+    font-size: 12px;
+    border-radius: 2px;
+    margin-left: 60px;
+    font-family: "Inter", sans-serif;
+}
+
+.form__btnActive {
+    color: var(--white-fixed);
+    border: 1.5px solid var(--brand-1);
+    background-color: var(--brand-1);
+    width: 55px;
+    height: 35px;
+    font-weight: 600;
+    font-size: 12px;
+    border-radius: 2px;
+    margin-left: 60px;
+    font-family: "Inter", sans-serif;
+    cursor: pointer;
+}
+
+.btnFollow {
+    color: var(--grey-1);
+    border: 1.5px solid var(--grey-0);
+    width: 55px;
+    height: 25px;
+    font-weight: 600;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.btnFollow:hover {
+    border: 1.5px solid var(--brand-1);
+    color: var(--brand-1);
+}
+.btnFollow:focus {
+    color: var(--color-white-fixed);
+    background-color: var(--brand-1);
+    width: 65px;
+}
+.btnCloseModal {
+    width: 20px;
+    height: 20px;
+    border: none;
+    color: var(--grey-3);
+    font-weight: 400;
+    size: 24px;
+    background-color: var(--color-white-fixed);
+}
+
+.btnOpenPost {
+    color: var(--color-white-fixed);
+    border: 1.5px solid var(--grey-1);
+    background-color: var(--grey-1);
+    width: 80px;
+    height: 33px;
+    font-weight: 500;
+    font-size: 12px;
+    border-radius: 2px;
+    font-family: "Inter", sans-serif;
+    cursor: pointer;
+}
+
+.btnOpenPost:hover {
+    color: var(--color-white-fixed);
+    border: 1.5px solid var(--grey-0);
+    background-color: var(--grey-0);
+}

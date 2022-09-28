@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/globalStyles.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/buttons.css">
+    <link rel="stylesheet" href="./styles/inputs.css">
+    <link rel="stylesheet" href="./styles/forms.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/modal.css">
+
+    <title>TechPosters - Home</title>
+  </head>
+  
+  <body>
+      <nav class="navbar">
+      <img src="./assets/img/logo.svg" alt="">
+      <a>Sair</a>
+      </nav>
+
+    <main>
+      <form class="form" action="submit">
+        <div class="form__divAlignInfo">
+        <div class="form__divImg">
+            <img class="profileImg" src="./assets/img/user1.svg" alt="">
+        </div>
+        <div class="form__inputs">
+            <div class="form__divUserInfo">
+                <p class="pUsername">Samuel Leão</p>
+                <p class="pFollowers hidden">500 seguidores</p>
+            </div>
+            <p class="pJob">Front End Engineer</p>
+            </div>
+        </div>
+    </div>
+    <div class="form__divPostInputs">
+        <input class="inputGlobal inputTitle" id="titlePost" placeholder="Digitar título do post" type="text">
+        <textarea class="inputGlobal inputTextarea" id="contentPost" name="" id="" cols="30" rows="10" placeholder="Digitar descrição do post"></textarea>
+    </div>
+    <div class="form__divBtnPost">
+        <button id="btnPostNow" class="form__btnDeactivated">Postar</button>
+    </div>
+    </form>
+
+
+      <aside class="aside__sectionUsers">
+        <h2 class="mt_10px">Sugestões para você seguir</h2>
+        
+        <div class="allUsers">
+
+          <div class="userCard CardSuggested">
+            <div class="sectionUsers__DivSuggestions suggestedUsersDesktop">
+              <div>
+                  <img class="profileImg" src="./assets/img/user3.svg" alt="">
+              </div>
+              <div>
+                  <p class="pUsername userSuggestedName">Carlos Lima</p>
+                  <p class="pJob userSuggestedJob">UX e UI Designer</p>
+              </div>
+            </div>
+              <button class="btnFollow mt_10px" >Seguir</button>
+          </div>
+
+          <div class="userCard CardSuggested">
+            <div class="sectionUsers__DivSuggestions">
+            <div>
+              <img class="profileImg" src="./assets/img/user6.svg" alt="">
+          </div>
+          <div>
+              <p class="pUsername userSuggestedName">Larissa Camargo</p>
+              <p class="pJob userSuggestedJob">UI Developer</p>
+          </div>
+        </div>
+        <button class="btnFollow mt_10px" >Seguir</button>
+          </div>
+            
+          <div class="userCard CardSuggested">
+            <div class="sectionUsers__DivSuggestions">
+            <div>
+              <img class="profileImg" src="./assets/img/user7.svg" alt="">
+          </div>
+          <div>
+              <p class="pUsername userSuggestedName">Filipe Gutierry</p>
+              <p class="pJob userSuggestedJob">Full Stack Developer</p>
+          </div>
+        </div>
+        <button class="btnFollow mt_10px">Seguir</button>
+        </div>
+          </div>
+
+      </aside>
+
+      <section class="mt_10px">
+        <h2 >Posts</h2>
+        <ul class="ulPosts posts mt_10px">
+        </ul>
+        
+      </section>
+    </main>
+
+    <section class="wrapper hidden">
+        <div class="userCard modalMain">
+          <div class="sectionUsers__DivSuggestions modalmain1">
+            
+            <div>
+                <img class="profileImg modalImg" src="" alt="">
+            </div>
+            <div>
+              <div class="divModalClose">
+                <p class="pUsername modalUsername">Samuel Leão</p>
+                <button class="btnCloseModal">X</button>
+              </div>
+                <p class="pJob modalJob">Front End Engineer</p>
+            </div>
+      </div>
+      <div class="modal__body">
+        <h2 class="modalTitle"></h2>
+        <p class="pModalText"></p>
+      </div>
+      </div>
+
+    </section>
+
+  </body>
+  <script src="./script/database/users.js"></script>
+  <script src="./script/database/posts.js"></script>
+  <script src="./script/database/sugestUsers.js"></script>
+  <script src="./script/database/index.js"></script>
+  <script src="./script/database/modal.js"></script>
+
+</html>

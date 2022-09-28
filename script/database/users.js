@@ -1,4 +1,3 @@
-//Usuários
 const users = [
   {
     id: 1,

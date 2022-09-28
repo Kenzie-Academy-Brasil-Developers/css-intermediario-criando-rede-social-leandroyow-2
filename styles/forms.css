@@ -1,0 +1,70 @@
+.form {
+    margin-top: 6rem;
+}
+
+.form__divAlignInfo {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.form__inputs {
+    margin-left: 10px;
+}
+
+.form__divImg {
+    width: 40px;
+    height: 40px;
+}
+
+.pUsername {
+    width: fit-content;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    line-height: 24px;
+    color: var(--grey-1);
+    font-style: normal;
+
+}
+
+.pFollowers {
+    width: fit-content;
+}
+
+.pJob {
+    width: fit-content;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: var(--grey-2);
+    font-style: normal;
+    size: 14px;
+    line-height: 16px;
+}
+
+.form__divUserInfo {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.form__divPostInputs {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: max-content;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.form__divBtnPost {
+    display: flex;
+    justify-content: flex-end;
+    width: 300px;
+}
+
+@media(min-width: 1024px) {
+    form {
+        width: 50%;
+    }
+    .form__divBtnPost {
+        width: 444px;
+    }
+}
